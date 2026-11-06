@@ -181,12 +181,11 @@
           </div>
 
           <pre><code><em>01</em> <strong>const</strong> JoelProfile = {
-<em>02</em>   role: <mark>'Virtual Assistant'</mark>,
+<em>02</em>   role: <mark>'UX Developer', 'Virtual Assistant'</mark>,
 <em>03</em>   focus: [<mark>'Frontend'</mark>, <mark>'UX'</mark>],
 <em>04</em>   code: <mark>'Clean, scalable'</mark>,
 <em>05</em>   design: <mark>'Intentional'</mark>,
-<em>06</em>   mission: <mark>'Build digital products that
-       are fast, accessible, and useful.'</mark>,
+<em>06</em>   mission: <mark>'Build digital products that are fast, accessible, and useful.'</mark>,
 <em>07</em>   tech: [
 <em>08</em>     <mark>'JavaScript'</mark>, <mark>'React'</mark>, <mark>'Next.js'</mark>,
 <em>09</em>     <mark>'Node.js'</mark>, <mark>'CSS'</mark>, <mark>'PostgreSQL'</mark>
@@ -403,7 +402,7 @@
 
           <a
             class="view-all"
-            href="#contact"
+            
           >
             VIEW ALL PROJECTS →
           </a>
@@ -418,19 +417,15 @@
             rel="noopener"
             aria-label="Open 5G Foods project"
           >
-            <div class="project-art art-trackify">
-              <div class="art-nav">
-                5G FOODS
-                <span>↗</span>
-              </div>
-
-              <div class="chart">
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
-              </div>
+            <div class="project-art has-shot">
+              <img
+                class="project-shot"
+                src="assets/5g-foods-card.png"
+                alt="5G Foods website landing page"
+                width="1600"
+                height="815"
+                loading="lazy"
+              />
 
               <span class="featured">
                 LIVE PROJECT
@@ -458,49 +453,51 @@
           </a>
 
           <!-- Palms Regalia -->
-          <article
-            class="project-card reveal project-disabled"
-            aria-label="Palms Regalia Apartments project under development"
+           <a
+            class="project-card project-link reveal"
+            href="https://palms-regalia-frontend.vercel.app/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Open Palms Regalia project"
           >
-            <div class="project-art art-books">
+            <div class="project-art has-shot">
+              <img
+                class="project-shot"
+                src="assets/palms-regalia-card.png"
+                alt="Palms Regalia Apartments website landing page"
+                width="1600"
+                height="815"
+                loading="lazy"
+              />
+
               <span class="featured">
-                UNDER DEVELOPMENT
+                LIVE PROJECT
               </span>
-
-              <strong>
-                Palms
-                  
-
-                Regalia
-              </strong>
-
-              <div class="book-row">
-                <i>01</i>
-                <i>02</i>
-                <i>03</i>
-                <i>04</i>
-              </div>
             </div>
 
             <h3>
-              Palms Regalia Apartments
+              Palms Regalia
+              <span class="card-arrow">↗</span>
             </h3>
 
             <p>
               An apartment booking site with live room availability, a booking
               system, and a contact form. The backend is secured with input
               validation, rate limiting, and locked-down CORS.
+
             </p>
 
             <div class="project-stack">
               Stack: HTML, CSS, JavaScript, Node.js, Express,
               MongoDB Atlas, Web3Forms.
+
                 
 
               Hosted on Vercel and Render.
             </div>
-          </article>
+          </a>
 
+          
           <!-- CarryWise -->
           <article
             class="project-card reveal project-disabled"
